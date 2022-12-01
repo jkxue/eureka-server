@@ -13,6 +13,6 @@ public class EurekaApp {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EurekaApp.class, args);
-		logger.debug("eureka已经启动!");
+		logger.debug("Eureka-server 已经启动!");
 	}
 }

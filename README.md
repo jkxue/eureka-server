@@ -18,3 +18,8 @@ docker-compose up eureka-server
  ```
 After start the app you can access at: http://localhost:8761/
 ![img_1.png](img_1.png)
+
+build image
+ ``` shell
+ docker build -t eureka-server:1.0.0 .
+ ```
